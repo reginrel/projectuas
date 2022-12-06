@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="container bg-white text-dark shadow" style="margin-top:-200px">
+        <div class="row" style="height: 1290px">
+            <center>
+        <body><br>
+            <img src="{% static 'img/logoapple.png'%}" style="width:100px;height:100px" alt="">
+            <h1>iPhone</h1>
+            <p>iPhone adalah merek ponsel cerdas yang dirancang dan dipasarkan oleh Apple Inc. dan menggunakan sistem operasi telepon genggam iOS. iPhone generasi pertama diumumkan oleh CEO Apple Steve Jobs pada tanggal 9 Januari 2007. Sejak saat itu, Apple merilis model iPhone baru dan pembaruan iOS setiap tahun. Pada 1 November 2018, lebih dari 2,2 miliar iPhone telah terjual di seluruh dunia.</p>
+            <h1> Tipe iPhone dan Spesifikasinya </h1></body>
+        <table class="table">
+            <thead>
+              <tr class="table-dark">
+                <th scope="col">No</th>
+                <th scope="col">Tipe & Harga</th>
+                <th scope="col">Spesifikasi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><img src="{% static 'img/ipse.png'%}" style="width:100px;height:100px" alt=""> <br>
+                    iPhone SE 3rd Gen<br>
+                    Harga: Rp 7.999.000,00 <br>
+                </td>
+                <td>Warna: Hitam; Putih; Merah. <br>
+                    iOs: iOS 15 <br>
+                    Kapasitas: 64GB; 128GB; 256GB. <br>
+                    Ukuran Layar: 6,1 inch <br>
+                    Kamera: 12MP (Belakang) 7MP (Depan) <br>
+                    Chip: Chip A15 Bionic <br>
+                    Sim Card: SIM ganda (nano-SIM dan eSIM)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><img src="{% static 'img/ipeleven.png'%}" style="width:150px;height:100px" alt=""> <br>
+                    iPhone 11<br>
+                    Harga: Rp 7.499.000,00 <br>
+                </td>
+                <td>Warna: Hijau; Ungu; Putih; Kuning; Hitam. <br>
+                    Kapasitas: 64GB; 128GB; 256GB. <br>
+                    iOs: iOS 14 <br>
+                    Ukuran Layar: 6,1 inch <br>
+                    Kamera: 12MP <br>
+                    Chip: Chip A13 Bionic <br>
+                    Sim Card: SIM ganda (nano-SIM dan eSIM)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><img src="{% static 'img/iptwelve.png'%}" style="width:150px;height:100px" alt=""> <br>
+                    iPhone 12<br>
+                    Harga: Rp 11.999.000,00<br>
+                </td>
+                <td>Warna: Biru; Ungu; Hijau; Putih; Merah; Hitam. <br>
+                    iOs: iOS 14 <br>
+                    Kapasitas: 64GB; 128GB; 256GB. <br>
+                    Ukuran Layar: 6,1 inch <br>
+                    Kamera: 12MP <br>
+                    Chip: Chip A14 Bionic <br>
+                    Sim Card: SIM ganda (nano-SIM dan eSIM)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><img src="{% static 'img/ipthree.png'%}" style="width:180px;height:100px" alt=""> <br>
+                    iPhone 13<br>
+                    Harga: Rp 13.999.000,00 <br>
+                </td>
+                <td>Warna: Hijau; Pink; Hitam; Putih; Merah. <br>
+                    iOs: iOS 15 <br>
+                    Kapasitas: 128GB; 256GB; 512GB. <br>
+                    Ukuran Layar: 6,1 inch <br>
+                    Kamera: 12MP <br>
+                    Chip: Chip A15 Bionic <br>
+                    Sim Card: SIM ganda (nano-SIM dan eSIM)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td><img src="{% static 'img/ipfour.png'%}" style="width:150px;height:100px" alt=""> <br>
+                    iPhone 14<br>
+                    Harga: Rp 15.499.000,00 <br>
+                </td>
+                <td>Warna: Biru; Ungu; Hitam; Putih; Merah. <br>
+                    iOs: iOS 16 <br>
+                    Kapasitas: 128GB; 256GB; 512GB. <br>
+                    Ukuran Layar: 6,1 inch <br>
+                    Kamera: 12MP <br>
+                    Chip: Chip A15 Bionic <br>
+                    Sim Card: SIM ganda (nano-SIM dan eSIM)                  
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-warning me-md-2" type="button">Masukkan Keranjang</button>
+            <button class="btn btn-danger" type="button">Beli Sekarang</button>
+          </div>
+    </center>
+</div>
+</div>
+</div>
+    
+{% endblock %}

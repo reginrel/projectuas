@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="container bg-white text-dark shadow" style="margin-top:-200px">
+        <div class="row" style="height: 1410px">
+    <center>
+        <body><br>
+            <img src="{% static 'img/logorealme.jpeg'%}" style="width:230px;height:100px" alt="">
+            <h1>realme</h1>
+            <p>realme adalah perusahaan elektronik konsumen dan komunikasi seluler yang berbasis di Shenzhen, Tiongkok. realme didirikan pada 4 Mei 2018 oleh Sky Li (李炳忠), dengan beberapa anak muda lainnya yang berkecimpung di industri ponsel pintar, televisi pintar, dan AIoT dari berbagai negara yang termasuk juga Indonesia</p>
+            <h1> Tipe realme dan Spesifikasinya </h1></body>
+        <table class="table">
+            <thead>
+              <tr class="table-dark">
+                <th scope="col">No</th>
+                <th scope="col">Tipe & Harga</th>
+                <th scope="col">Spesifikasi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><img src="{% static 'img/realme10.WEBP'%}" style="width:150px;height:100px" alt=""> <br>
+                    realme 10 <br>
+                    Harga: Rp 2.999.000,00 <br>
+                </td>
+                <td>OS Version: Android 12 <br>
+                    Ukuran Layar: 6.4 inch <br>
+                    Screen Resolution: 1080 x 2400 Pixel <br>
+                    RAM: 8 GB <br>
+                    Memori Internal: 128 GB <br>
+                    Resolusi Kamera Belakang: 50 MP <br>
+                    Resolusi Kamera Depan: 16 MP <br>
+                    Kapasitas Baterai: 5000 mAh <br>                    
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><img src="{% static 'img/realmeC33.WEBP'%}" style="width:150px;height:100px" alt=""> <br>
+                    realme C33 <br>
+                    Harga: Rp 1.700.000,00 <br>
+                </td>
+                <td>OS Version: Android 12 <br>
+                    Ukuran Layar: 6.5 inch <br>
+                    Screen Resolution: 720 x 1600 Pixels <br>
+                    RAM: 4 GB <br>
+                    Memori Internal: 64 GB <br>
+                    Resolusi Kamera Belakang: 50 MP <br>
+                    Resolusi Kamera Depan: 5 MP <br>
+                    Kapasitas Baterai: 5000 mAh <br>                    
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><img src="{% static 'img/realmeC30.WEBP'%}" style="width:150px;height:100px" alt=""> <br>
+                    realme C30 <br>
+                    Harga: Rp 1.455.000,00<br>
+                </td>
+                <td>OS Version: Android 11 <br>
+                    Ukuran Layar: 6.5 inch <br>
+                    Screen Resolution: 720 x 1600 Pixels <br>
+                    RAM:  4 GB <br>
+                    Memori Internal: 64 GB <br>
+                    Resolusi Kamera Belakang: 8 MP <br>
+                    Resolusi Kamera Depan: 5 MP <br>
+                    Kapasitas Baterai: 5000 mAh <br>                    
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><img src="{% static 'img/realmenarzo.WEBP'%}" style="width:150px;height:100px" alt=""> <br>
+                    realme narzo 50A Prime <br>
+                    Harga: Rp 1.750.000,00 <br>
+                </td>
+                <td>OS Version: Android 11 <br>
+                    Ukuran Layar: 6.6 inch <br>
+                    Screen Resolution: 1080 x 2408 Pixel <br>
+                    RAM: 4 GB <br>
+                    Memori Internal: 64 GB <br>
+                    Resolusi Kamera Belakang: 5O MP <br>
+                    Resolusi Kamera Depan: 8 MP <br>
+                    Kapasitas Baterai: 5000 mAh <br>                                  
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td><img src="{% static 'img/realmeC35.WEBP'%}" style="width:150px;height:100px" alt=""> <br>
+                    realme C35<br>
+                    Harga: Rp 1.999.000,00 <br>
+                </td>
+                <td>OS Version: Android 11 <br>
+                    Ukuran Layar: 6.6 inch <br>
+                    Screen Resolution: 1080 x 2408 Pixel <br>
+                    RAM: 4 GB <br>
+                    Memori Internal: 64 GB <br>
+                    Resolusi Kamera Belakang: 50 MP <br>
+                    Resolusi Kamera Depan: 8 MP <br>
+                    Kapasitas Baterai: 5000 mAh <br>                                        
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-warning me-md-2" type="button">Masukkan Keranjang</button>
+            <button class="btn btn-danger" type="button">Beli Sekarang</button>
+          </div>
+    </center>
+</div>
+    
+{% endblock %}

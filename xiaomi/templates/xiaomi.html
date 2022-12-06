@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="container bg-white text-dark shadow" style="margin-top:-200px">
+        <div class="row" style="height: 1745px">
+            <center>
+        <body><br>
+            <img src="{% static 'img/logoxiaomi.jpeg'%}" style="width:100px;height:100px" alt="">
+            <h1>XIAOMI</h1>
+            <p>Xiaomi Corporation ("Xiaomi") didirikan pada bulan April 2010 dan terdaftar di Bursa Efek Hong Kong pada tanggal 9 Juli 2018 (1810.HK). Xiaomi adalah perusahaan manufaktur produk pintar dan elektronik konsumen yang terutama berfokus pada smartphone dan perangkat keras pintar yang terhubung melalui platform IoT.</p>
+        </body>
+        <h2>Tipe dan Spesifikasinya</h2>
+        <table class="table">
+            <thead>
+              <tr class="table-dark">
+                <th scope="col">No</th>
+                <th scope="col">Tipe & Harga</th>
+                <th scope="col">Spesifikasi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><img src="{% static 'img/xiaominote11pro.png'%}" style="width:200px;height:200px" alt=""> <br>
+                    Xiaomi Redmi Note 11 pro<br>
+                    Harga: Rp 3.349.000,00 <br>
+                </td>
+                <td>Sistem Operasi: Android <br>
+                    Versi OS: Android 11 <br>
+                    USB Connectors: Type-C
+                    Kamera: 108 MP kelas flagship <br>
+                    Ukuran Layar: 6.67" <br>
+                    Memori Internal: 8 GB + 128 GB <br>
+                    RAM: 8 GB <br>
+                    Kapasitas Baterai: 5000mAh <br>
+                    Resolusi layar: 1080 x 2400 pixels<br>
+                    Teknologi Layar: Super AMOLED <br>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><img src="{% static 'img/xiaomi12lite.png'%}" style="width:200px;height:200px" alt=""> <br>
+                    Xiaomi 12 Lite <br>
+                    Harga: Rp 5.599.000,00 <br>
+                </td>
+                <td>Sistem Operasi: Android <br>
+                    Versi OS: Android <br>
+                    USB Connectors: Type-C <br>
+                    Kamera Utama: 108 + 8 + 2 MP <br>
+                    Kamera Selfie: 32 MP <br>
+                    Ukuran Layar: 6.55" <br>
+                    Memori Internal: 256 GB <br>
+                    RAM: 6 & 8 GB <br>
+                    Kapasitas Baterai: 4300 mAh <br>
+                    Resolusi Layar: 2400 x 1080 pixels <br>
+                    Teknologi Layar: Gorilla Glass <br>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><img src="{% static 'img/xiaomiredmi10.png'%}" style="width:200px;height:200px" alt=""> <br>
+                    Xiaomi Redmi 10 <br>
+                    Harga: Rp 2.549.000,00 <br>
+                </td>
+                <td>Sistem Operasi: Android <br>
+                    Versi OS: 8.1 <br>
+                    USB Connectors: Micro-USB <br>
+                    Kamera Utama: 13 MP <br>
+                    Kamera Selfie: 5 MP <br>
+                    Ukuran Layar: 5.2" <br>
+                    Memori Internal: 64 GB + 128 GB<br>
+                    RAM: 5 GB <br>
+                    Kapasitas Baterai: 2900 mAh <br>
+                    Resolusi Layar: 720 x 1280 pixels <br>
+                    Teknologi Layar: IPS-LCD <br>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><img src="{% static 'img/xiaomi12t.png'%}" style="width:200px;height:200px" alt=""> <br>
+                    Xiaomi 12T <br>
+                    Harga: Rp 6.999.000,00 <br>
+                </td>
+                <td>Sistem Operasi: Android <br>
+                    Versi OS: 12 <br>
+                    USB Connectors: Type-C <br>
+                    Kamera Utama: 108 + 8 + 2 MP <br>
+                    Kamera Selfie: 20 MP <br>
+                    Ukuran Layar: 6.67" <br>
+                    Memori Internal: 256 GB<br>
+                    RAM: 8 GB <br>
+                    Kapasitas Baterai: 5000 mAh <br>
+                    Resolusi Layar: 1220 x 2712 pixels <br>
+                    Teknologi Layar: AMOLED <br>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td><img src="{% static 'img/xiaomi9C.png'%}" style="width:200px;height:200px" alt=""> <br>
+                    Xiaomi  9C<br>
+                    Harga: Rp 1.349.000,00 <br>
+                </td>
+                <td>Sistem Operasi: Android <br>
+                    Versi OS: 10 <br>
+                    USB Connectors: Micro-USB <br>
+                    Kamera Utama: 13 MP <br>
+                    Kamera Selfie: 2,2 MP <br>
+                    Ukuran Layar: 6.53" <br>
+                    Memori Internal: 32 GB<br>
+                    RAM: 3/4 GB <br>
+                    Kapasitas Baterai: 5000 mAh <br>
+                    Resolusi Layar: 1600 x 720 pixels <br>
+                    Teknologi Layar: IPS-LCD <br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-warning me-md-2" type="button">Masukkan Keranjang</button>
+            <button class="btn btn-danger" type="button">Beli Sekarang</button>
+          </div>
+    </center>
+</div>
+    
+{% endblock %}
